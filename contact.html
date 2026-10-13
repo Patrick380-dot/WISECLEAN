@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WISECLEAN — Service de nettoyage professionnel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <p class="logo_header"><a href="index.html">WISECLEAN</a></p>
+
+      <div class="nav_link">
+        <a href="#services">SERVICES</a>
+        <a href="#">TARIFS</a>
+        <a href="#temoignages">AVIS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+
+      <div class="header_ctn">
+        <p>25 09 09 09</p>
+
+        <button class="header_ctn_btn">Demnder un devis</button>
+      </div>
+
+      <button
+        class="btn_menu"
+        id="menu_toggle"
+        aria-expanded="false"
+        aria-label="Ouvrir le menu"
+      >
+        <img src="images/menu.svg" alt="" />
+      </button>
+    </header>
+
+    <main>
+      <section class="hero_ctn">
+        <div class="hero_ctn_degrade">
+          <div class="hero_ctn_degrade_1">
+            <h1 class="hero_ctn_title">Parlons de <i>votre projet</i></h1>
+
+            <p class="hero_ctn_p">
+              Une question, un besoin de nettoyage, une demande de devis ?
+              eccrivez nous, notre agence est deisponible pour vous 24h/24.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="formulaire_et_info">
+        <div class="contact_form">
+          <p>Votre demande</p>
+
+          <h2>Ecrivez nous</h2>
+
+          <form action="" class="formulaire_ctn">
+          <div class="nom_telephone">
+
+            <div class="form_group">
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form_group">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" required />
+            </div>
+
+            </div>
+
+            <div class="form_group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="radio">
+              <p>Service Concerné</p>
+
+              <div class="form_group_radio">
+                <div>
+                  <label for="service-residentiel">Résidentiel</label>
+                  <input type="radio" id="service-residentiel" name="service" value="residentiel" required />
+                </div>
+
+                <div>
+                  <label for="service-bureaux">Bureaux</label>
+                  <input type="radio" id="service-bureaux" name="service" value="bureaux" required />
+                </div>
+
+                <div>
+                  <label for="service-apres-travaux">Après travaux</label>
+                  <input type="radio" id="service-apres-travaux" name="service" value="apres-travaux" required />
+                </div>
+              
+                <div>
+                  <label for="service-vitres">Vitres</label>
+                  <input type="radio" id="service-vitres" name="service" value="vitres" required />
+                </div>
+              
+              </div>
+            </div>
+            <div class="form_group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit">Recevoir mon devis gratuit</button>
+          </form>
+        </div>
+
+        <div class="info">
+          <div>
+            <p>Nous sommes à votre écoute</p>
+            <h2>Nos coordonnées</h2>            
+          </div>
+
+          <div class="contact_info">
+            <div class="contact_info_ctn">
+              <img src="images/emplacement.png" alt="" height="45px" />
+              <div>
+              <h3>Adresse</h3>
+              <p>Ouagadougou Burkina Faso</p>
+              </div>
+            </div>
+
+            <div class="contact_info_ctn">
+              <img src="images/telephoner.png" alt="" height="45px" />
+              <div>
+              <h3>Téléphone</h3>
+              <p>25 09 09 09</p>                
+              </div>
+            </div>
+
+            <div class="contact_info_ctn">
+              <img src="images/e-mail.png" alt="" height="45px" />
+              <div>
+              <h3>Email</h3>
+              <p>equipe@wiseclean.com</p>                
+              </div>
+            </div>
+
+            <div class="contact_info_ctn">
+              <img src="images/clock.svg" alt="" height="45px" />
+              <div>
+              <h3 class="horaires">Horaires</h3>
+              <p>Lun-Ven 8h-19h</p>
+              <p>sam 9h-13h</p>                
+              </div>
+            </div>
+            
+
+            <div class="contact_info_ctn succes">
+              <img src="images/succes.png" alt="" height="45px" />
+              <div>
+              <h3>Devis gratuit sous 24h</h3>
+              <p>Répons rapide</p>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="localisation">
+        <p>Notre localisation</p>
+
+        <h1>Trouver nous facilement</h1>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124715.67320138957!2d-1.6192455753469917!3d12.358479661644287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e95ecceaa44cd%3A0x799f67799c743b8b!2sOuagadougou!5e0!3m2!1sfr!2sbf!4v1790669629063!5m2!1sfr!2sbf" width="100%" height="600px" style="border:0; padding: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer_top">
+        <div class="footer_ 1">
+          <p class="title_1_footer">WISECLEAN</p>
+          <p class="p_footer">
+            Service de nettoyage professionnel pour particuliers et entreprises
+          </p>
+        </div>
+
+        <div class="footer_2">
+          <p class="title_footer">SERVICES</p>
+          <p class="p_footer">Nettoyage résidentiel</p>
+          <p class="p_footer">Nettoyage de bureaux</p>
+          <p class="p_footer">Après travaux</p>
+          <p class="p_footer">Vitres</p>
+        </div>
+
+        <div class="footer_3">
+          <p class="title_footer">ENTREPRISE</p>
+          <p class="p_footer">À propos</p>
+          <p class="p_footer">Avis clients</p>
+          <p class="p_footer">Contact</p>
+        </div>
+
+        <div class="footer_4">
+          <p class="title_footer">RESTEZ INFORMÉ</p>
+          <p class="p_footer">equipe@wiseclean.com <span>OK</span></p>
+        </div>
+      </div>
+
+      <hr class="footer_hr" />
+
+      <div class="bottom_footer">
+        <p class="p_footer">© 2026 WISECLEAN. Tous droits réservé</p>
+        <p class="p_footer">25 09 09 09 · equipe@wiseclean.com</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
